@@ -31,14 +31,11 @@ This directory contains the GAMS model for different variances of TSPJ.
 
 ### TSPJ Library and computational result
 
-The original data extract from "https://wwwproxy.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/"
-for the Job time, we assume the Job time is a number between 50% -80% of the TSP tour length, and generate the Job time by randbeteen function in excel. 
-
-Each experiment named as "TSPJ"+ number of the nodes. For example TSPJ_20_nodes, containes 20 nodes of the original data plus the Job time.
-
-Each experiment contains the GAMS code and the GAMS outout. Also, it has the excel file of the GAMS results(TSPJ_OUTPUT.xlsx).
+To test the TSPJ heuristic procedures and exact solution for small size problem, we need sets of test problems. Due to the novelty of this problem, test sets are not yet available in the literature. Therefore, we constructed different sets of problem by using the TSPLIB data for \tsp (gr17, gr21, gr24, fri26, bays29, gr48, eli51, berlin52, eli76, and eli101), and adding the job-time as a random number between 50-80 percent units of the \tsp-tour. The formulations presented above have all been coded in the GAMS language, and  solutions have been obtained using the CPLEX MIP solver. All runs were performed on a Dell precision tower 7910 with two Intel(R) Xenon(R) CPUs of 2.30 GHz, and 32 GB physical memory(RAM). The aim of using these sets is to compare the results of heuristics procedures with the GAMS solution and approve the accuracy of the heuristics.  
 
 
+
+In addition, to compare the heuristics performance with different size of the  problems, this paper defines 300 random data sets in three categories: small, medium, and large scale. The small, medium, and large sets contain the random number of the nodes between 40 to 50 , 400 to 500, and 1000 to 1200  respectively. Also, the distances between the nodes set to range between 10 to 50, 50 to 200, and 200 to 500 units respectively. The job-times set by the 50 to 80 percent units of the \tsp-tour for each set. The program was written in Python 3.7 \cite{van1995python}.
 
 
 ### How to run the GAMS
