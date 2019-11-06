@@ -1,0 +1,2 @@
+dset=B   rng=BOUNDS!a1  cdim=1
+par=BOUNDS   rng=BOUNDS!a1    cdim=1

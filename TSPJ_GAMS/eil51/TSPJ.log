@@ -1,0 +1,269 @@
+
+--- Job TSPT.gms Start 07/05/19 12:55:37 26.1.0 rf2b37b9 WEX-WEI x86 64bit/MS Windows
+GAMS 26.1.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Manbir Sodhi, Single User License              G180228:1754AO-WIN
+          University of Rhode Island, Industrial & Manufacturing EngiDC1966
+          License for teaching and research at degree granting institutions
+          sodhi@uri.edu                                                    
+--- Starting compilation
+--- TSPT.gms(15) 2 Mb
+--- call GDXXRW TSPT.xlsx  @TSPT.txt
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.xlsx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.gdx
+Total time = 1125 Ms
+--- TSPT.gms(16) 2 Mb
+--- GDXin=C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.gdx
+--- TSPT.gms(27) 3 Mb
+--- call GDXXRW TSPT.xlsx  @TSPT.txt
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.xlsx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.gdx
+Total time = 1172 Ms
+--- TSPT.gms(28) 3 Mb
+--- GDXin=C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.gdx
+--- TSPT.gms(38) 3 Mb
+--- call GDXXRW TSPT.xlsx  @TSPT.txt
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.xlsx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.gdx
+Total time = 1094 Ms
+--- TSPT.gms(39) 3 Mb
+--- GDXin=C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT.gdx
+--- TSPT.gms(114) 3 Mb
+--- Starting execution: elapsed 0:00:03.979
+--- TSPT.gms(98) 4 Mb
+--- Generating MIP model TSP
+--- TSPT.gms(99) 7 Mb
+---   5,404 rows  7,804 columns  33,055 non-zeroes
+---   5,101 discrete-columns
+--- Executing CPLEX: elapsed 0:00:04.086
+
+IBM ILOG CPLEX   26.1.0 rf2b37b9 Released Feb 02, 2019 WEI x86 64bit/MS Window
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.8.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.25 Mb
+Use option 'names no' to turn use of names off
+CPXPARAM_Advance                                 0
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               2000
+CPXPARAM_WorkDir                                 "C:\Users\Mohsen\Documents\gamsdir\projdir\225a\"
+CPXPARAM_Threads                                 24
+CPXPARAM_Parallel                                1
+CPXPARAM_Tune_TimeLimit                          400
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+CPXPARAM_MIP_Display                             4
+Tried aggregator 2 times.
+MIP Presolve eliminated 1 rows and 52 columns.
+MIP Presolve modified 100 coefficients.
+Aggregator did 50 substitutions.
+Reduced MIP has 5353 rows, 7702 columns, and 32853 nonzeros.
+Reduced MIP has 5101 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (24.17 ticks)
+Found incumbent of value 1920.890000 after 0.14 sec. (70.89 ticks)
+Probing time = 0.03 sec. (6.02 ticks)
+Cover probing fixed 50 vars, tightened 54 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 50 columns.
+MIP Presolve modified 7400 coefficients.
+Reduced MIP has 5353 rows, 7652 columns, and 32685 nonzeros.
+Reduced MIP has 5051 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (31.81 ticks)
+Probing time = 0.06 sec. (6.67 ticks)
+Cover probing fixed 0 vars, tightened 100 bounds.
+Clique table members: 1427.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 24 threads.
+Parallel mode: deterministic, using up to 20 threads for concurrent optimization.
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 0 columns.
+Reduced LP has 5351 rows, 7652 columns, and 32681 nonzeros.
+Presolve time = 0.00 sec. (4.82 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =           406.699900
+Perturbation started.
+Iteration:   303   Dual objective     =           552.590000
+Iteration:   491   Dual objective     =           585.100016
+Iteration:   585   Dual objective     =           585.100023
+Iteration:   685   Dual objective     =           585.100054
+Iteration:   783   Dual objective     =           585.100078
+Iteration:   897   Dual objective     =           585.100126
+Iteration:  1005   Dual objective     =           585.100178
+Iteration:  1106   Dual objective     =           585.100193
+Iteration:  1206   Dual objective     =           585.100212
+Iteration:  1306   Dual objective     =           585.100222
+Iteration:  1402   Dual objective     =           585.100226
+Iteration:  1498   Dual objective     =           585.100230
+Iteration:  1595   Dual objective     =           585.100236
+Iteration:  1691   Dual objective     =           585.100243
+Removing perturbation.
+Using devex.
+
+Primal simplex solved model.
+
+Root relaxation solution time = 0.22 sec. (171.67 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1920.8900      406.6999            78.83%
+Found incumbent of value 1920.890000 after 0.56 sec. (312.41 ticks)
+      0     0      588.0898    86     1920.8900      588.0898     3119   69.38%
+      0     0      622.9820   115     1920.8900     Cuts: 261     5630   67.57%
+*     0+    0                          924.7800      622.9820            32.63%
+Found incumbent of value 924.780000 after 2.80 sec. (1546.38 ticks)
+      0     0      627.3481   143      924.7800     Cuts: 256     7702   32.16%
+*     0+    0                          892.3100      627.3481            29.69%
+Found incumbent of value 892.310000 after 3.88 sec. (2014.19 ticks)
+      0     0      627.5026    95      892.3100      Cuts: 90     8706   29.68%
+*     0+    0                          769.4100      627.5026            18.44%
+Found incumbent of value 769.410000 after 4.09 sec. (2138.90 ticks)
+*     0+    0                          728.1400      627.5026            13.82%
+Found incumbent of value 728.140000 after 5.38 sec. (2955.04 ticks)
+      0     0      627.5026    95      728.1400     Cuts: 131     8752   13.82%
+*     0+    0                          713.7500      627.5026            12.08%
+Found incumbent of value 713.750000 after 8.58 sec. (4696.24 ticks)
+      0     2      627.5026    78      713.7500      627.5026     8752   12.08%
+Elapsed time = 8.81 sec. (4770.22 ticks, tree = 0.01 MB, solutions = 6)
+      2     4      628.9050    44      713.7500      627.5026    12632   12.08%
+     12    14      627.8317    56      713.7500      627.5026    15247   12.08%
+                                                     Cuts: 14                  
+     32    34      633.8794    75      713.7500      627.6243    32763   12.07%
+                                                     Cuts: 34                  
+     70    48      628.6268    55      713.7500      627.6243    46688   12.07%
+                                                     Cuts: 74                  
+    105    73      634.4742    20      713.7500      627.6243    70552   12.07%
+                                                     Cuts: 34                  
+    134    90      641.6934    58      713.7500      627.9431    87959   12.02%
+                                                     Cuts: 18                  
+*   147+   99                          705.9900      627.9431            11.05%
+Found incumbent of value 705.990000 after 12.55 sec. (6520.65 ticks)
+*   149   120      integral     0      630.0700      627.9431   128276    0.34%
+Found incumbent of value 630.070000 after 12.55 sec. (6522.39 ticks)
+    183   141      648.4183    82      630.0700      627.9431   145180    0.34%
+                                                     Cuts: 12                  
+
+Clique cuts applied:  21
+Implied bound cuts applied:  74
+Flow cuts applied:  96
+Mixed integer rounding cuts applied:  47
+Zero-half cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    8.63 sec. (4708.25 ticks)
+Parallel b&c, 24 threads:
+  Real time             =    4.53 sec. (2128.58 ticks)
+  Sync time (average)   =    1.66 sec.
+  Wait time (average)   =    0.04 sec.
+                          ------------
+Total (root+branch&cut) =   13.16 sec. (6836.83 ticks)
+MIP status(102): integer optimal, tolerance
+Cplex Time: 13.17sec (det. 6836.85 ticks)
+Fixing integer variables, and solving final LP...
+CPXPARAM_Advance                                 2
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               2000
+CPXPARAM_WorkDir                                 "C:\Users\Mohsen\Documents\gamsdir\projdir\225a\"
+CPXPARAM_Threads                                 24
+CPXPARAM_Parallel                                1
+CPXPARAM_Tune_TimeLimit                          400
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+CPXPARAM_MIP_Display                             4
+Parallel mode: deterministic, using up to 24 threads for concurrent optimization.
+Tried aggregator 1 time.
+LP Presolve eliminated 2854 rows and 7703 columns.
+Aggregator did 50 substitutions.
+Reduced LP has 2500 rows, 51 columns, and 5000 nonzeros.
+Presolve time = 0.00 sec. (4.58 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =           630.070000
+
+Dual simplex solved model.
+
+Fixed MIP status(1): optimal
+Cplex Time: 0.03sec (det. 11.12 ticks)
+
+Solution satisfies tolerances.
+
+MIP Solution:          630.070000    (189360 iterations, 192 nodes)
+Final Solve:           630.070000    (49 iterations)
+
+Best possible:         627.943087
+Absolute gap:            2.126913
+Relative gap:            0.003376
+
+--- Restarting execution
+--- TSPT.gms(99) 3 Mb
+--- Reading solution for model TSP
+--- TSPT.gms(99) 3 Mb
+--- Executing after solve: elapsed 0:00:17.733
+--- TSPT.gms(104) 4 Mb
+--- GDX File C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+--- TSPT.gms(105) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Adding new sheet: MAXLENGTH
+**** Symbol MAXLENGTH not found
+
+Any changes made to the spreadsheet were not saved
+Total time = 1688 Ms
+--- TSPT.gms(106) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Total time = 2094 Ms
+--- TSPT.gms(107) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Total time = 1844 Ms
+--- TSPT.gms(108) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Total time = 2031 Ms
+--- TSPT.gms(109) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Total time = 2032 Ms
+--- TSPT.gms(110) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Total time = 1953 Ms
+--- TSPT.gms(111) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Total time = 1828 Ms
+--- TSPT.gms(112) 4 Mb
+
+GDXXRW           26.1.0 rf2b37b9 Released Feb 02, 2019 VS8 x86 32bit/MS Window
+Input file : C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.gdx
+Output file: C:\Users\Mohsen\Documents\gamsdir\projdir\TSPT_OUTPUT.xlsx
+Total time = 1907 Ms
+--- TSPT.gms(114) 4 Mb
+*** Status: Normal completion
+--- Job TSPT.gms Stop 07/05/19 12:56:12 elapsed 0:00:34.191
