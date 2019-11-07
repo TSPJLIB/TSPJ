@@ -10,24 +10,6 @@ This  paper explores a problem related to the Traveling Salesman Problem where t
 
 
 
-### TSPJ Variance Models
-This directory contains the GAMS model for different variances of TSPJ.
-
-1.  TSPJ with Multiple travelers (TSPJ-M)
-
-2. TSPJ with Resource constraint (TSPJ-R)
-
-3. TSPJ with Time Windows (TSPJ-W)
-
-4. TSPJ with Sequence Dependent Jobs (TSPJ-SD)
-
-5. TSPJ with Multiple depots (TSPJ-MD)
-
-6. TSPJ with Setup Time (TSPJ-ST)
-
-7. TSPJ Balanced completion time (TSPJ-B)
-
-
 
 ### TSPJ Library and computational result
 
